@@ -3,6 +3,7 @@ import NavigationBar from './components/Navigation/NavigationBar.vue'
 import NavigationFooter from './components/Navigation/NavigationFooter.vue'
 import SectionHome from './components/SectionHome.vue'
 import SectionPortfolio from './components/SectionPortfolio.vue'
+import SectionResume from './components/SectionResume.vue'
 </script>
 
 <template>
@@ -12,8 +13,9 @@ import SectionPortfolio from './components/SectionPortfolio.vue'
     </header>
 
     <main>
-      <SectionHome />
-      <SectionPortfolio />
+      <SectionHome id="home" />
+      <SectionPortfolio id="portfolio" />
+      <SectionResume id="resume" />
     </main>
     <NavigationFooter />
   </div>

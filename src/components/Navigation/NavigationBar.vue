@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div class="container mx-auto py-8">
+  <div class="container mx-auto py-8 px-16">
     <div class="flex flex-row items-center">
       <div class="mr-8">
         <h1 class="font-bold text-4xl text-white">RS</h1>
@@ -26,15 +26,15 @@
           <li>
             <a
               class="transition-colors inline-block py-1 border-b-2 border-b-transparent hover:border-b-violet-700"
-              href="#about"
-              >About</a
+              href="#portfolio"
+              >Portfolio</a
             >
           </li>
           <li>
             <a
               class="transition-colors inline-block py-1 border-b-2 border-b-transparent hover:border-b-violet-700"
-              href="#portfolio"
-              >Portfolio</a
+              href="#resume"
+              >Resume</a
             >
           </li>
           <li>

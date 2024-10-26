@@ -4,7 +4,7 @@ import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons'
 </script>
 
 <template>
-  <section class="container mx-auto py-16">
+  <section class="container mx-auto py-16 px-16">
     <div class="grid grid-cols-2 items-center">
       <div>
         <h3 class="text-3xl font-semibold text-slate-100 mb-4">I am Romario</h3>
@@ -16,24 +16,25 @@ import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons'
           user-friendly and maintainable applications over time
         </p>
         <div class="flex flex-row items-center gap-4">
-          <button
-            class="transition-colors px-6 py-3 rounded-full border text-violet-500 border-violet-500 hover:text-white hover:bg-violet-500"
+          <a
+            href="https://drive.google.com/file/d/1MwKp9nMbgITAzfTaGjI6_PmrAiBKqeX6/view"
+            class="transition-colors px-8 py-3 rounded-full border text-violet-500 border-violet-500 hover:text-white hover:bg-violet-500"
           >
             Download CV
-          </button>
+          </a>
           <a
-            class="transition-colors flex items-center justify-center rounded-full border text-violet-500 border-violet-500 hover:text-white hover:bg-violet-500 w-8 h-8"
+            class="transition-colors flex items-center justify-center rounded-full border text-violet-500 border-violet-500 hover:text-white hover:bg-violet-500 p-2"
             href="https://www.linkedin.com/in/romariosarmiento/"
             target="_blank"
           >
-            <FontAwesomeIcon :icon="faLinkedinIn" />
+            <FontAwesomeIcon class="w-5 h-5" :icon="faLinkedinIn" />
           </a>
           <a
-            class="transition-colors flex items-center justify-center rounded-full border text-violet-500 border-violet-500 hover:text-white hover:bg-violet-500 w-8 h-8"
+            class="transition-colors flex items-center justify-center rounded-full border text-violet-500 border-violet-500 hover:text-white hover:bg-violet-500 p-2"
             href="https://github.com/romariosc15"
             target="_blank"
           >
-            <FontAwesomeIcon :icon="faGithub" />
+            <FontAwesomeIcon class="w-5 h-5" :icon="faGithub" />
           </a>
         </div>
       </div>
@@ -50,27 +51,27 @@ import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons'
         <span class="text-6xl font-bold text-slate-100">+5</span>
         <p class="text-slate-100">
           Years of <br />
-          experience
+          Experience
         </p>
       </div>
       <div class="flex flex-row items-center gap-4">
         <span class="text-6xl font-bold text-slate-100">3</span>
         <p class="text-slate-100">
           Certifications <br />
-          obtained
+          Obtained
         </p>
       </div>
       <div class="flex flex-row items-center gap-4">
         <span class="text-6xl font-bold text-slate-100">2</span>
         <p class="text-slate-100">
           Languages <br />
-          proficiency
+          Proficiency
         </p>
       </div>
       <div class="flex flex-row items-center gap-4">
         <span class="text-6xl font-bold text-slate-100">F+B</span>
         <p class="text-slate-100">
-          Frontend and Backend <br />
+          Frontend &amp; Backend <br />
           Development
         </p>
       </div>
