@@ -1,7 +1,4 @@
-<script setup>
-import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-import { faSuitcase, faGraduationCap } from '@fortawesome/free-solid-svg-icons'
-</script>
+<script setup></script>
 
 <template>
   <section class="container mx-auto py-16 px-16">
@@ -11,10 +8,7 @@ import { faSuitcase, faGraduationCap } from '@fortawesome/free-solid-svg-icons'
     </div>
     <div class="grid grid-cols-2 gap-16">
       <div class="space-y-8">
-        <h2 class="text-4xl font-semibold text-slate-100">
-          <FontAwesomeIcon class="align-middle w-7 mr-2" :icon="faSuitcase" />
-          Experience
-        </h2>
+        <h2 class="text-4xl font-semibold text-slate-100">Experience</h2>
         <div class="space-y-4">
           <div class="bg-violet-600 rounded-3xl px-10 py-6 space-y-1">
             <span class="text-xl font-medium text-slate-100"
@@ -64,13 +58,7 @@ import { faSuitcase, faGraduationCap } from '@fortawesome/free-solid-svg-icons'
         </div>
       </div>
       <div class="space-y-8">
-        <h2 class="text-4xl font-semibold text-slate-100">
-          <FontAwesomeIcon
-            class="align-middle w-10 mr-2"
-            :icon="faGraduationCap"
-          />
-          Education
-        </h2>
+        <h2 class="text-4xl font-semibold text-slate-100">Education</h2>
         <div class="space-y-4">
           <div class="bg-violet-600 rounded-3xl px-10 py-6 space-y-1">
             <span class="text-xl font-medium text-slate-100"
