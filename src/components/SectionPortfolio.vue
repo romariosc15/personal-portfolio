@@ -19,8 +19,8 @@ import ProjectTags from '../components/ProjectTags.vue'
             <span class="text-lg text-violet-500">Web Application</span>
             <h3 class="text-3xl font-medium text-white my-4">Enjoyb</h3>
             <p class="text-lg font-light text-white mb-8">
-              Aplicación desarrollada en Next.js e integrada con Contentful API
-              para gestionar y publicar oportunidades de trabajo.
+              Application developed with Next.js and integrated with the
+              Contentful API to manage and publish job opportunities.
             </p>
             <ProjectTags
               :tags="['React', 'Next.js', 'Contentful', 'Tailwind']"
@@ -30,7 +30,7 @@ import ProjectTags from '../components/ProjectTags.vue'
               class="transition-colors text-white hover:text-violet-500"
               target="_blank"
             >
-              Visitar aplicación web
+              Go to website
               <FontAwesomeIcon
                 class="w-5 h-5 ml-1 align-middle"
                 :icon="faLink"

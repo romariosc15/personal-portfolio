@@ -12,13 +12,14 @@ import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons'
           Full Stack Developer
         </h1>
         <p class="text-xl font-normal text-slate-100 mb-8">
-          I suggest ideas and solve problems by developing efficient,
-          user-friendly and maintainable applications over time
+          I propose ideas and solve problems by developing efficient,
+          user-friendly and maintainable applications
         </p>
         <div class="flex flex-row items-center gap-4">
           <a
             href="https://drive.google.com/file/d/1MwKp9nMbgITAzfTaGjI6_PmrAiBKqeX6/view"
             class="transition-colors px-8 py-3 font-medium rounded-full border text-violet-500 border-violet-500 hover:text-white hover:bg-violet-500"
+            target="_blank"
           >
             Download CV
           </a>

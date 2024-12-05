@@ -10,10 +10,10 @@ import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
       <div class="grid grid-cols-2 gap-24">
         <div class="bg-[#15091d] rounded-xl px-12 py-16">
           <h2 class="text-4xl font-semibold text-violet-400 mb-4">
-            Trabajemos juntos
+            Let&apos;s collaborate
           </h2>
           <p class="text-base font-light text-white mb-8">
-            Charlemos y hagamos realidad esa idea que tienes en mente
+            Let&apos;s talk and bring your idea to life
           </p>
           <form class="space-y-4" action="">
             <div class="grid grid-cols-2 gap-4">
