@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faLink } from '@fortawesome/free-solid-svg-icons'
 import ProjectTags from '../components/ProjectTags.vue'
 import { projects } from '@/constants/content'
+import { useAssets } from '@/composables/useAssets'
 </script>
 
 <template>
@@ -42,7 +43,7 @@ import { projects } from '@/constants/content'
           <div>
             <img
               class="w-full rounded-xl border-[16px] border-[#10171c]"
-              :src="`../assets/images/projects/${project.image}`"
+              :src="useAssets(`/src/assets/images/projects/${project.image}`)"
               alt="Project image"
             />
           </div>
