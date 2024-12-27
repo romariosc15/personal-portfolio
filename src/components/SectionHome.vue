@@ -9,7 +9,7 @@ import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons'
       <div>
         <h3 class="text-3xl font-semibold text-slate-100 mb-4">I am Romario</h3>
         <h1 class="text-6xl font-bold text-violet-400 mb-4">
-          Full Stack Developer
+          Software Developer
         </h1>
         <p class="text-xl font-normal text-slate-100 mb-8">
           I propose ideas and solve problems by developing efficient,

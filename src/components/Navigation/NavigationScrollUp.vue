@@ -1,9 +1,12 @@
 <script setup>
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faArrowUp } from '@fortawesome/free-solid-svg-icons'
+import { useWindowScroll } from '@vueuse/core'
+
+const { y } = useWindowScroll({ behavior: 'smooth' })
 
 const scrollToTop = () => {
-  window.scrollTo(0, 0)
+  y.value = 0
 }
 </script>
 

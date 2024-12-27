@@ -1,51 +1,41 @@
-<script setup></script>
+<script setup>
+import { useWindowScroll } from '@vueuse/core'
+import { navLinks } from '@/constants/content'
+
+const { y } = useWindowScroll({ behavior: 'smooth' })
+</script>
 
 <template>
-  <div class="container mx-auto py-8 px-16">
-    <div class="flex flex-row items-center">
-      <div class="mr-8">
-        <h1 class="font-bold text-4xl text-white">RS</h1>
+  <div class="h-[104px]" :class="{ hidden: y <= 104, block: y > 104 }"></div>
+  <div
+    class="w-full"
+    :class="{ 'fixed top-0 bg-black shadow-xl shadow-violet-500/10': y > 104 }"
+  >
+    <div class="container mx-auto py-8 px-16">
+      <div class="flex flex-row items-center">
+        <div class="mr-8">
+          <h1 class="font-bold text-4xl text-white">RS</h1>
+        </div>
+        <div>
+          <a
+            class="transition-colors font-medium text-white hover:text-violet-500"
+            href="mailto:romariosc15@outlook.com"
+          >
+            romariosc15@outlook.com
+          </a>
+        </div>
+        <nav class="ml-auto">
+          <ul class="text-white flex flex-row gap-12">
+            <li v-for="(link, index) in navLinks" :key="index">
+              <a
+                class="transition-colors inline-block py-1 border-b-2 border-b-transparent hover:border-b-violet-700"
+                :href="link.href"
+                >{{ link.name }}</a
+              >
+            </li>
+          </ul>
+        </nav>
       </div>
-      <div>
-        <a
-          class="transition-colors font-medium text-white hover:text-violet-500"
-          href="mailto:romariosc15@outlook.com"
-        >
-          romariosc15@outlook.com
-        </a>
-      </div>
-      <nav class="ml-auto">
-        <ul class="text-white flex flex-row gap-12">
-          <li>
-            <a
-              class="transition-colors inline-block py-1 border-b-2 border-b-transparent hover:border-b-violet-700"
-              href="#home"
-              >Home</a
-            >
-          </li>
-          <li>
-            <a
-              class="transition-colors inline-block py-1 border-b-2 border-b-transparent hover:border-b-violet-700"
-              href="#portfolio"
-              >Portfolio</a
-            >
-          </li>
-          <li>
-            <a
-              class="transition-colors inline-block py-1 border-b-2 border-b-transparent hover:border-b-violet-700"
-              href="#resume"
-              >Resume</a
-            >
-          </li>
-          <li>
-            <a
-              class="transition-colors inline-block py-1 border-b-2 border-b-transparent hover:border-b-violet-700"
-              href="#contact"
-              >Contact</a
-            >
-          </li>
-        </ul>
-      </nav>
     </div>
   </div>
 </template>

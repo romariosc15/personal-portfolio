@@ -1,10 +1,26 @@
-<script setup></script>
+<script setup>
+import { navLinks } from '@/constants/content'
+</script>
 
 <template>
-  <footer class="text-center py-4 px-16">
+  <footer class="text-center py-6 px-16 space-y-4">
     <div>
-      <p class="text-sm font-light text-gray-400">
-        Developed by Romario Sarmiento in 2024
+      <h1 class="font-bold text-5xl text-white">RS</h1>
+    </div>
+    <nav>
+      <ul class="text-white flex justify-center flex-row gap-8">
+        <li v-for="(link, index) in navLinks" :key="index">
+          <a
+            class="transition-colors text-base font-semibold inline-block py-1 border-b-2 border-b-transparent hover:border-b-violet-700"
+            :href="link.href"
+            >{{ link.name }}</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <div>
+      <p class="text-base font-light text-gray-500">
+        Developed by Romario Sarmiento
       </p>
     </div>
   </footer>
