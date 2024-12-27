@@ -42,7 +42,7 @@ import { projects } from '@/constants/content'
           <div>
             <img
               class="w-full rounded-xl border-[16px] border-[#10171c]"
-              :src="`/src/assets/images/projects/${project.image}`"
+              :src="`../assets/images/projects/${project.image}`"
               alt="Project image"
             />
           </div>
