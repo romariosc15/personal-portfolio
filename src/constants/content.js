@@ -7,32 +7,32 @@ export const navLinks = [
 
 export const experience = [
   {
-    role: 'Web UI Developer',
-    company: 'Globant',
+    name: 'Web UI Developer',
+    entity: 'Globant',
     location: 'Remote',
     period: '2024 May. - Present',
   },
   {
-    role: 'Software Engineer',
-    company: 'Intive',
+    name: 'Software Engineer',
+    entity: 'Intive',
     location: 'Remote',
     period: '2022 Dec. - 2024 Jan.',
   },
   {
-    role: 'Web UI Developer',
-    company: 'Globant',
+    name: 'Web UI Developer',
+    entity: 'Globant',
     location: 'Remote',
     period: '2021 Nov. - 2022 Nov.',
   },
   {
-    role: 'Software Engineer',
-    company: 'Oktana',
+    name: 'Software Engineer',
+    entity: 'Oktana',
     location: 'Remote',
     period: '2020 Sep. - 2021 Oct.',
   },
   {
-    role: 'Full Stack Web Developer',
-    company: 'Innovahora',
+    name: 'Full Stack Web Developer',
+    entity: 'Innovahora',
     location: 'Ilo',
     period: '2019 Sep. - 2020 Aug.',
   },
@@ -40,14 +40,14 @@ export const experience = [
 
 export const education = [
   {
-    specialization: 'Full Stack Development Course',
-    institute: 'TECSUP',
+    name: 'Full Stack Development Course',
+    entity: 'TECSUP',
     location: 'Peru',
     period: '2020 Jul. - 2020 Dec.',
   },
   {
-    specialization: 'Systems Engineering and Informatics',
-    institute: 'Universidad Nacional de Moquegua',
+    name: 'Systems Engineering and Informatics',
+    entity: 'Universidad Nacional de Moquegua',
     location: 'Peru',
     period: '2015 Mar. - 2019 Dec.',
   },

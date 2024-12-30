@@ -1,16 +1,22 @@
 <script setup>
+import { computed } from 'vue'
 import { useWindowScroll } from '@vueuse/core'
 import { navLinks } from '@/constants/content'
 
 const { y } = useWindowScroll({ behavior: 'smooth' })
+
+const staticTopBlockClass = computed(() => ({
+  hidden: y.value <= 104,
+  block: y.value > 104,
+}))
+const stickyNavbarClass = computed(() => ({
+  'fixed top-0 bg-black shadow-xl shadow-violet-500/10': y.value > 104,
+}))
 </script>
 
 <template>
-  <div class="h-[104px]" :class="{ hidden: y <= 104, block: y > 104 }"></div>
-  <div
-    class="w-full"
-    :class="{ 'fixed top-0 bg-black shadow-xl shadow-violet-500/10': y > 104 }"
-  >
+  <div class="h-[104px]" :class="staticTopBlockClass"></div>
+  <div class="w-full" :class="stickyNavbarClass">
     <div class="container mx-auto py-8 px-16">
       <div class="flex flex-row items-center">
         <div class="mr-8">
