@@ -55,15 +55,6 @@ export const education = [
 
 export const projects = [
   {
-    title: 'Footgoal',
-    url: 'https://enjoyb.vercel.app/',
-    image: 'enjoyb.png',
-    type: 'Web Application',
-    description:
-      'An entertainment application featuring football-related puzzles and trivia, developed using Vue 3 and Pinia.',
-    tags: ['Vue', 'Pinia', 'Tailwind', 'Vitest'],
-  },
-  {
     title: 'Enjoyb',
     url: 'https://enjoyb.vercel.app/',
     image: 'enjoyb.png',
