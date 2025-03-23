@@ -40,14 +40,14 @@ export const experience = [
 
 export const education = [
   {
-    name: 'Full Stack Development Course',
+    name: 'Full Stack Course',
     entity: 'TECSUP',
     location: 'Peru',
     period: '2020 Jul. - 2020 Dec.',
   },
   {
-    name: 'Systems Engineering and Informatics',
-    entity: 'Universidad Nacional de Moquegua',
+    name: 'Systems Engineering',
+    entity: 'UNAM',
     location: 'Peru',
     period: '2015 Mar. - 2019 Dec.',
   },

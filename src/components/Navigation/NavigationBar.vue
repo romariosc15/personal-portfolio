@@ -17,7 +17,7 @@ const stickyNavbarClass = computed(() => ({
 <template>
   <div class="h-[104px]" :class="staticTopBlockClass"></div>
   <div class="w-full" :class="stickyNavbarClass">
-    <div class="container mx-auto py-8 px-16">
+    <div class="container mx-auto py-6 lg:py-8 px-4 md:px-8 lg:px-36">
       <div class="flex flex-row items-center">
         <div class="mr-8">
           <h1 class="font-bold text-4xl text-white">RS</h1>
@@ -30,7 +30,7 @@ const stickyNavbarClass = computed(() => ({
             romariosc15@outlook.com
           </a>
         </div>
-        <nav class="ml-auto">
+        <nav class="ml-auto hidden lg:block">
           <ul class="text-white flex flex-row gap-12">
             <li v-for="(link, index) in navLinks" :key="index">
               <a

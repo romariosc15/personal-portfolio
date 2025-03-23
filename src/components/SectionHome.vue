@@ -4,14 +4,14 @@ import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons'
 </script>
 
 <template>
-  <section class="container mx-auto py-16 px-16">
-    <div class="grid grid-cols-2 items-center">
+  <section class="container mx-auto py-10 lg:py-16 px-4 md:px-8 lg:px-36">
+    <div class="lg:grid lg:grid-cols-2 items-center">
       <div>
-        <h3 class="text-3xl font-semibold text-slate-100 mb-4">I am Romario</h3>
-        <h1 class="text-6xl font-bold text-violet-400 mb-4">
+        <h3 class="text-2xl lg:text-3xl font-semibold text-slate-100 mb-4">I am Romario</h3>
+        <h1 class="text-4xl lg:text-6xl font-bold text-violet-400 mb-4">
           Software Developer
         </h1>
-        <p class="text-xl font-normal text-slate-100 mb-8">
+        <p class="text-lg lg:text-xl font-normal text-slate-100 mb-8">
           I propose ideas and solve problems by developing efficient,
           user-friendly and maintainable applications
         </p>
@@ -39,7 +39,7 @@ import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons'
           </a>
         </div>
       </div>
-      <div class="mx-auto">
+      <div class="mx-auto mt-12 lg:mt-0">
         <img
           class="w-[600px] rounded-3xl border-2 border-violet-950"
           src="../assets/images/home.jpg"
@@ -47,9 +47,9 @@ import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons'
         />
       </div>
     </div>
-    <div class="flex flex-row justify-between pt-24">
+    <div class="flex flex-col lg:flex-row flex-wrap justify-between gap-y-4 lg:gap-y-0 pt-12 lg:pt-24">
       <div class="flex flex-row items-center gap-4">
-        <span class="text-6xl font-bold text-slate-100">+5</span>
+        <span class="text-6xl font-bold text-slate-100">5</span>
         <p class="text-slate-100">
           Years of <br />
           Experience
@@ -69,8 +69,8 @@ import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons'
           Proficiency
         </p>
       </div>
-      <div class="flex flex-row items-center gap-4">
-        <span class="text-6xl font-bold text-slate-100">F+B</span>
+      <div class="hidden lg:flex lg:flex-row lg:items-center lg:gap-4">
+        <span class="text-4xl lg:text-6xl font-bold text-slate-100">F+B</span>
         <p class="text-slate-100">
           Frontend &amp; Backend <br />
           Development
