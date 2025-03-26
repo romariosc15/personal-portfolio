@@ -64,3 +64,26 @@ export const projects = [
     tags: ['React', 'Next.js', 'Contentful', 'Tailwind', 'Jest'],
   },
 ]
+
+export const profileData = [
+  {
+    number: 5,
+    topText: 'Years of',
+    bottomText: 'Experience'
+  },
+  {
+    number: 3,
+    topText: 'Certifications',
+    bottomText: 'Obtained'
+  },
+  {
+    number: 2,
+    topText: 'Languages',
+    bottomText: 'Proficiency'
+  },
+  {
+    number: 2,
+    topText: 'Own created',
+    bottomText: 'projects'
+  },
+]

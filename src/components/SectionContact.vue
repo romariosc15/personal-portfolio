@@ -6,9 +6,9 @@ import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 
 <template>
   <section class="bg-black">
-    <div class="container mx-auto py-10 lg:py-16 px-4 md:px-8 lg:px-36">
-      <div class="md:grid md:grid-cols-5 lg:grid-cols-2 md:gap-8 lg:gap-24">
-        <div class="bg-[#15091d] md:col-span-3 lg:col-span-1 rounded-xl px-8 lg:px-12 py-12 lg:py-16">
+    <div class="container mx-auto py-10 lg:py-16 px-4 md:px-8 lg:px-16 xl:px-36">
+      <div class="md:grid md:grid-cols-5 xl:grid-cols-2 md:gap-8 lg:gap-12 xl:gap-24">
+        <div class="bg-[#15091d] md:col-span-3 xl:col-span-1 rounded-xl px-8 xl:px-12 py-12 lg:py-16">
           <h2 class="text-4xl font-semibold text-violet-400 mb-4">
             Let&apos;s collaborate
           </h2>
@@ -73,7 +73,7 @@ import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
             </div>
           </form>
         </div>
-        <div class=" md:col-span-2 lg:col-span-1 mt-8 lg:mt-0 space-y-8 content-center">
+        <div class=" md:col-span-2 xl:col-span-1 mt-8 lg:mt-0 space-y-8 content-center">
           <div class="text-white flex flex-row gap-4 lg:gap-8 items-center">
             <div
               class="bg-violet-700 rounded-full content-center text-center w-10 h-10 lg:w-12 lg:h-12"

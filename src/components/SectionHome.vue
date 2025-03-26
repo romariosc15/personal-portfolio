@@ -1,10 +1,12 @@
 <script setup>
+import HomeProfile from './HomeProfile.vue'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons'
+import { profileData } from '@/constants/content'
 </script>
 
 <template>
-  <section class="container mx-auto py-10 lg:py-16 px-4 md:px-8 lg:px-36">
+  <section class="container mx-auto py-10 lg:py-16 px-4 md:px-8 lg:px-16 xl:px-36">
     <div class="lg:grid lg:grid-cols-2 items-center">
       <div>
         <h3 class="text-2xl lg:text-3xl font-semibold text-slate-100 mb-4">I am Romario</h3>
@@ -41,41 +43,12 @@ import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons'
       </div>
       <div class="mx-auto mt-12 lg:mt-0">
         <img
-          class="w-[600px] rounded-3xl border-2 border-violet-950"
+          class="w-full lg:w-[600px] rounded-3xl border-2 border-violet-950"
           src="../assets/images/home.jpg"
           alt=""
         />
       </div>
     </div>
-    <div class="flex flex-col lg:flex-row flex-wrap justify-between gap-y-4 lg:gap-y-0 pt-12 lg:pt-24">
-      <div class="flex flex-row items-center gap-4">
-        <span class="text-6xl font-bold text-slate-100">5</span>
-        <p class="text-slate-100">
-          Years of <br />
-          Experience
-        </p>
-      </div>
-      <div class="flex flex-row items-center gap-4">
-        <span class="text-6xl font-bold text-slate-100">3</span>
-        <p class="text-slate-100">
-          Certifications <br />
-          Obtained
-        </p>
-      </div>
-      <div class="flex flex-row items-center gap-4">
-        <span class="text-6xl font-bold text-slate-100">2</span>
-        <p class="text-slate-100">
-          Languages <br />
-          Proficiency
-        </p>
-      </div>
-      <div class="hidden lg:flex lg:flex-row lg:items-center lg:gap-4">
-        <span class="text-4xl lg:text-6xl font-bold text-slate-100">F+B</span>
-        <p class="text-slate-100">
-          Frontend &amp; Backend <br />
-          Development
-        </p>
-      </div>
-    </div>
+    <HomeProfile :profile-data="profileData" />
   </section>
 </template>

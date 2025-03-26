@@ -4,7 +4,7 @@ import ResumeCardContainer from './ResumeCardContainer.vue'
 </script>
 
 <template>
-  <section class="container mx-auto py-10 lg:py-16 px-4 md:px-8 lg:px-36">
+  <section class="container mx-auto py-10 lg:py-16 px-4 md:px-8 lg:px-16 xl:px-36">
     <div class="text-center space-y-4 mb-12">
       <h2 class="text-4xl font-semibold text-violet-400">My Resume</h2>
       <p class="text-slate-100">PROFESSIONAL &amp; ACADEMIC BACKGROUND</p>
