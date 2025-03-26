@@ -9,20 +9,22 @@ const staticTopBlockClass = computed(() => ({
   hidden: y.value <= 104,
   block: y.value > 104,
 }))
+
 const stickyNavbarClass = computed(() => ({
   'fixed top-0 bg-black shadow-xl shadow-violet-500/10': y.value > 104,
 }))
+
 </script>
 
 <template>
   <div class="h-[104px]" :class="staticTopBlockClass"></div>
   <div class="w-full" :class="stickyNavbarClass">
-    <div class="container mx-auto py-6 lg:py-8 px-4 md:px-8 lg:px-16 xl:px-36">
+    <div class="container mx-auto py-6 xl:py-8 px-4 md:px-8 lg:px-16 xl:px-36">
       <div class="flex flex-row items-center">
         <div class="mr-8">
           <h1 class="font-bold text-4xl text-white">RS</h1>
         </div>
-        <div>
+        <div class="ml-auto md:ml-0 block md:hidden lg:block">
           <a
             class="transition-colors font-medium text-white hover:text-violet-500"
             href="mailto:romariosc15@outlook.com"
@@ -30,7 +32,7 @@ const stickyNavbarClass = computed(() => ({
             romariosc15@outlook.com
           </a>
         </div>
-        <nav class="ml-auto hidden lg:block">
+        <nav class="ml-auto hidden md:block">
           <ul class="text-white flex flex-row gap-12">
             <li v-for="(link, index) in navLinks" :key="index">
               <a
