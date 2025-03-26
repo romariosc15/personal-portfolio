@@ -74,16 +74,16 @@ import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
           </form>
         </div>
         <div class=" md:col-span-2 xl:col-span-1 mt-8 lg:mt-0 space-y-8 content-center">
-          <div class="text-white flex flex-row gap-4 lg:gap-8 items-center">
+          <div class="text-white flex flex-row gap-4 md:gap-6 xl:gap-8 items-center">
             <div
-              class="bg-violet-700 rounded-full content-center text-center w-10 h-10 lg:w-12 lg:h-12"
+              class="bg-violet-700 rounded-full content-center text-center w-10 h-10 lg:w-12 lg:h-12 shrink-[0]"
             >
               <FontAwesomeIcon
                 class="w-5 h-5 lg:w-6 lg:h-6 align-middle text-gray-300"
                 :icon="faEnvelope"
               />
             </div>
-            <div class="space-y-1 truncate">
+            <div class="md:space-y-1 truncate">
               <p class="text-gray-300">Email</p>
               <a
                 class="transition-colors inline-block text-lg lg:text-xl font-medium text-white hover:text-violet-500"
@@ -93,16 +93,16 @@ import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
               </a>
             </div>
           </div>
-          <div class="text-white flex flex-row gap-4 lg:gap-8 items-center">
+          <div class="text-white flex flex-row gap-4 md:gap-6 xl:gap-8 items-center">
             <div
-              class="bg-violet-700 rounded-full content-center text-center w-10 h-10 lg:w-12 lg:h-12"
+              class="bg-violet-700 rounded-full content-center text-center w-10 h-10 lg:w-12 lg:h-12 shrink-[0]"
             >
               <FontAwesomeIcon
                 class="w-5 h-5 lg:w-6 lg:h-6 align-middle text-gray-300"
                 :icon="faLinkedinIn"
               />
             </div>
-            <div class="space-y-1">
+            <div class="md:space-y-1">
               <p class="text-gray-300">LinkedIn</p>
               <a
                 class="transition-colors inline-block text-lg lg:text-xl font-medium text-white hover:text-violet-500"
@@ -113,16 +113,16 @@ import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
               </a>
             </div>
           </div>
-          <div class="text-white flex flex-row gap-4 lg:gap-8 items-center">
+          <div class="text-white flex flex-row gap-4 md:gap-6 xl:gap-8 items-center">
             <div
-              class="bg-violet-700 rounded-full content-center text-center w-10 h-10 lg:w-12 lg:h-12"
+              class="bg-violet-700 rounded-full content-center text-center w-10 h-10 lg:w-12 lg:h-12 shrink-[0]"
             >
               <FontAwesomeIcon
                 class="w-5 h-5 lg:w-6 lg:h-6 align-middle text-gray-300"
                 :icon="faLocationDot"
               />
             </div>
-            <div class="space-y-1">
+            <div class="md:space-y-1">
               <p class="text-gray-300">Location</p>
               <p class="text-lg lg:text-xl font-medium">Ilo, Moquegua</p>
             </div>
