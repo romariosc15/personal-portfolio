@@ -5,8 +5,8 @@ import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 </script>
 
 <template>
-  <section class="bg-black">
-    <div class="container mx-auto py-10 lg:py-16 px-4 md:px-8 lg:px-16 xl:px-36 scroll-mt-[60px]">
+  <section class="bg-black scroll-mt-[70px]">
+    <div class="container mx-auto py-10 lg:py-16 px-4 md:px-8 lg:px-16 xl:px-32">
       <div class="md:grid md:grid-cols-5 xl:grid-cols-2 md:gap-8 lg:gap-12 xl:gap-24">
         <div class="bg-[#15091d] md:col-span-3 xl:col-span-1 rounded-xl px-8 xl:px-12 py-12 lg:py-16">
           <h2 class="text-4xl font-semibold text-violet-400 mb-4">

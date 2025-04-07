@@ -18,7 +18,7 @@ const isHidden = computed(() => {
 <template>
   <div class="hidden xl:block">
     <button
-      class="fixed bottom-12 right-16 text-violet-700 border-2 border-violet-700 rounded-full hover:bg-violet-700 hover:text-white transition-colors w-12 h-12"
+      class="fixed bottom-12 right-14 text-violet-700 border-2 border-violet-700 rounded-full hover:bg-violet-700 hover:text-white transition-colors w-12 h-12"
       :class="isHidden"
       @click="scrollToTop"
     >

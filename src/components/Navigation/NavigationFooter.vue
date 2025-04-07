@@ -3,7 +3,7 @@ import { navLinks } from '@/constants/content'
 </script>
 
 <template>
-  <footer class="text-center py-4 lg:py-6 px-4 md:px-8 lg:px-16 xl:px-36 space-y-4">
+  <footer class="text-center py-4 lg:py-6 px-4 md:px-8 lg:px-16 xl:px-32 space-y-4">
     <div>
       <h1 class="font-bold text-5xl text-white">RS</h1>
     </div>

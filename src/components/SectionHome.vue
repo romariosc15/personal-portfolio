@@ -6,7 +6,7 @@ import { profileData } from '@/constants/content'
 </script>
 
 <template>
-  <section class="container mx-auto py-10 lg:py-16 px-4 md:px-8 lg:px-16 xl:px-36">
+  <section class="container mx-auto py-10 lg:py-16 px-4 md:px-8 lg:px-16 xl:px-32">
     <div class="lg:grid lg:grid-cols-2 items-center">
       <div>
         <h3 class="text-2xl lg:text-3xl font-semibold text-slate-100 mb-4">I am Romario</h3>
@@ -43,7 +43,7 @@ import { profileData } from '@/constants/content'
       </div>
       <div class="mx-auto mt-12 lg:mt-0">
         <img
-          class="w-full lg:w-[600px] rounded-3xl border-2 border-violet-950"
+          class="w-full lg:ml-auto lg:w-[90%] rounded-3xl border-2 border-violet-950"
           src="../assets/images/home.jpg"
           alt=""
         />

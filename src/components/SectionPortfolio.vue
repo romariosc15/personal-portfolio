@@ -8,7 +8,7 @@ import { useAssets } from '@/composables/useAssets'
 
 <template>
   <section class="bg-black scroll-mt-[60px]">
-    <div class="container mx-auto py-10 lg:py-16 px-4 md:px-8 lg:px-16 xl:px-36">
+    <div class="container mx-auto py-10 lg:py-16 px-4 md:px-8 lg:px-16 xl:px-32">
       <div class="text-center space-y-4 mb-12">
         <h2 class="text-4xl font-semibold text-violet-400">My Portfolio</h2>
         <p class="text-slate-100">PERSONAL PROJECTS</p>
