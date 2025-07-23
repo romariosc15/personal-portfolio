@@ -22,7 +22,9 @@ const stickyNavbarClass = computed(() => ({
     <div class="container mx-auto py-6 xl:py-8 px-4 md:px-8 lg:px-16 xl:px-32">
       <div class="flex flex-row items-center">
         <div class="mr-8">
-          <h1 class="font-bold text-4xl text-white">RS</h1>
+          <a href="#app">
+            <img class="w-[50px]" src="/src/assets/images/logo.png" alt="Portfolio logo">
+          </a>
         </div>
         <div class="ml-auto md:ml-0 block md:hidden lg:block">
           <a

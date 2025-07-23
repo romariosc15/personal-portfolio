@@ -55,6 +55,15 @@ export const education = [
 
 export const projects = [
   {
+    title: 'Tech Store',
+    url: 'https://tech-store-rs.vercel.app/',
+    image: 'tech-store.png',
+    type: 'Web Application',
+    description:
+      'Responsive web application developed to manage and sell electronics online',
+    tags: ['Vue 3', 'Pinia', 'Tailwind', 'Vitest'],
+  },
+  {
     title: 'Enjoyb',
     url: 'https://enjoyb.vercel.app/',
     image: 'enjoyb.png',
