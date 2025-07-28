@@ -19,7 +19,7 @@ import { profileData } from '@/constants/content'
         </p>
         <div class="flex flex-row items-center gap-4">
           <a
-            href="https://drive.google.com/file/d/1uXkaDZyZ-sN-JRD_mrtiYMaVMYgGRetH/view"
+            href="https://drive.google.com/file/d/12DoVr9cpUxmRmsspxbQYcMGGvFJNePq1/view"
             class="transition-colors px-8 py-3 font-medium rounded-full border text-violet-500 border-violet-500 hover:text-white hover:bg-violet-500"
             target="_blank"
           >
